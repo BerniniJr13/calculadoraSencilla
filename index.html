@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CALCULADORA</title>
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+</head>
+<body>
+    <div class="calc">
+        <input type="text" id="display" disabled>
+        <div>
+            <div class="boton" onclick="limpiar()">C</div>
+            <div class="boton" onclick="addPantalla('/')">/</div>
+            <div class="boton" onclick="addPantalla('*')">x</div>
+            <div class="boton" onclick="addPantalla('7')">7</div>
+            <div class="boton" onclick="addPantalla('8')">8</div>
+            <div class="boton" onclick="addPantalla('9')">9</div>
+            <div class="boton" onclick="addPantalla('-')">-</div>
+            <div class="boton" onclick="addPantalla('4')">4</div>
+            <div class="boton" onclick="addPantalla('5')">5</div>
+            <div class="boton" onclick="addPantalla('6')">6</div>
+            <div class="boton" onclick="addPantalla('+')">+</div>
+            <div class="boton" onclick="addPantalla('1')">1</div>
+            <div class="boton" onclick="addPantalla('2')">2</div>
+            <div class="boton" onclick="addPantalla('3')">3</div>
+            <div class="boton" onclick="resultado()">=</div>
+            <div class="boton" onclick="addPantalla('0')">0</div>
+            <div class="boton" onclick="addPantalla('.')">.</div>
+        </div>
+    </div>
+    <script src="codigo.js"></script>
+</body>
+</html>

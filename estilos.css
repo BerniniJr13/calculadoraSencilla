@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.calc {
+    max-width: 200px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #0c0b0b;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: repeat(4);
+    grid-gap: 1px;
+}
+
+.boton {
+    width: 40px;
+    height: 40px;
+    margin: 1px;
+    cursor: pointer;
+    background-color: f3f3f3;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 40px;
+}
+
